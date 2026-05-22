@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { useScrollReveal } from '@/hooks/useScrollReveal'
 import runningEcommerceImg from '@/assets/running ecommerce.webp'
 import goSenseiLabImg from '@/assets/go-sensei-lab.webp'
+import juicyHealthyImg from '@/assets/JuicyHealthy.webp'
 
 const PROJECTS = [
   {
@@ -53,6 +54,7 @@ const PROJECTS = [
     tech: ['React', 'Node.js', 'Tailwind CSS'],
     github: 'https://github.com/toonajuig/group5-ecommerce-sprint2',
     demo: null,
+    image: juicyHealthyImg,
     featured: false,
     isGroup: true,
   },
